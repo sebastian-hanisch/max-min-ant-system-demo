@@ -55,7 +55,7 @@ dauerhaft dominiert.
 st.caption(
     "Anders als die Fall-Demos im Portfolio, die an einem Anwendungsfall mehrere Verfahren vergleichen, zeigt diese Demo - "
     "zehntes Stück der Populations-Metaheuristiken-Linie der \"Konzepte\"-Reihe, ein **Fix** für "
-    "[ant-system-demo](https://github.com/sebastian-hanisch/ant-system-demo) - "
+    "[ant-system-demo](https://sebastianhanisch-ant-system-demo.streamlit.app/) - "
     "**ein** Verfahren an einem wachsenden Beispiel. Vehikel ist dieselbe diskrete Lieferroute wie dort/bei "
     "[nsga2-demo](https://sebastianhanisch-nsga2-demo.streamlit.app/)."
 )
@@ -227,7 +227,7 @@ st.markdown(
 )
 st.caption(
     "Max-Min Ant System schließt die Ant-System-Kette dieser Linie ab (kein Nachfolger geplant). Vorgänger: "
-    "[ant-system-demo](https://github.com/sebastian-hanisch/ant-system-demo), dessen dokumentierte Stagnationsgefahr hier direkt geprüft wird."
+    "[ant-system-demo](https://sebastianhanisch-ant-system-demo.streamlit.app/), dessen dokumentierte Stagnationsgefahr hier direkt geprüft wird."
 )
 
 st.markdown("---")
