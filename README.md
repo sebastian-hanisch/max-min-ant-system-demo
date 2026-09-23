@@ -1,7 +1,9 @@
 # 🐜 Max-Min Ant System – begrenztes Pheromon statt unbegrenzter Verstärkung
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-max-min-ant-system-demo.streamlit.app/)**
+
 Zehntes Stück der **Populations-Metaheuristiken-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) –
-Operations Research und Machine Learning. Fix-Nachfolger von [ant-system-demo](https://sebastianhanisch-ant-system-demo.streamlit.app/):
+Operations Research und Machine Learning. Fix-Nachfolger von [ant-system-demo](https://github.com/sebastian-hanisch/ant-system-demo):
 dessen "Ehrliche Grenzen" dokumentierten offen die zentrale Schwäche - keine Pheromon-Obergrenze, ein früh gefundener,
 mittelmäßiger Pfad kann sich unbegrenzt verstärken, die ganze Kolonie legt sich vorzeitig darauf fest (Stagnation).
 Max-Min Ant System (MMAS, Stützle & Hoos, 1996/2000) behebt genau das über zwei Änderungen: Pheromonwerte werden auf
