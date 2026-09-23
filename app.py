@@ -162,7 +162,7 @@ if np.isfinite(a.brute_force_optimum):
 else:
     m2.metric("Brute-Force-Optimum", "nicht berechenbar (zu viele Stopps)")
 st.markdown("**τ_min/τ_max über die Generationen**")
-st.plotly_chart(build_bounds_curve(result.generations), width="stretch")
+st.plotly_chart(build_bounds_curve(result.generations), width="stretch", key="bounds_curve")
 
 st.markdown("---")
 
