@@ -47,5 +47,5 @@ def test_comparison_preset_uses_the_shared_small_instance():
 
 
 def test_ratio_presets_use_the_extreme_ratio_values():
-    assert C.PRESETS["Enges τ-Verhältnis"]["ratio"] == C.RATIO_VALUES[0]
-    assert C.PRESETS["Lockeres τ-Verhältnis"]["ratio"] == C.RATIO_VALUES[-1]
+    assert C.PRESETS["Enges τ-Verhältnis"]["ratio"] == C.RATIO_VALUES[-1]
+    assert C.PRESETS["Lockeres τ-Verhältnis"]["ratio"] == C.RATIO_VALUES[0]

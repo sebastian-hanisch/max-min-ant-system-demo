@@ -252,6 +252,6 @@ Hauptschleife), `mmas_scenario.py` (Vehikel), `mmas_evaluation.py` (Kennzahlen, 
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Populations-Metaheuristiken: GA bis Memetic](https://sebastianhanisch.net/konzepte-populations-metaheuristiken.html)."
 )

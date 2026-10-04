@@ -48,7 +48,7 @@ Vergleichsinstanz wie ant-system-demo (eigenständig neu gemessen, kein Zitat).
 | Frage | Befund | Test |
 |---|---|---|
 | Verhindert die Begrenzung wirklich Stagnation? | Ja, klar messbar: bei lockerem τ-Verhältnis (r=0,02, näher am unbeschränkten Ant-System-Verhalten) kleben nach einem langen Lauf 6,67 % der Pheromonwerte nahe τ_max; bei eng gewähltem τ-Verhältnis (r=0,5) sind es 0,0 %. Über 5 verschiedene Vehikel-Seeds exakt reproduzierbar. | `test_stagnation_experiment_headline_claims` |
-| Wie stark hängt die Tourqualität vom τ-Verhältnis r ab? | Klarer Trade-off: die mediane Tourlänge steigt von 491 km bei r=0,005 auf 542 km bei r=0,4 - ein zu lockeres Band kostet messbar Qualität. | `test_ratio_experiment_headline_claims` |
+| Wie stark hängt die Tourqualität vom τ-Verhältnis r ab? | Klarer Trade-off: die mediane Tourlänge steigt von 491 km bei r=0,005 auf 542 km bei r=0,4 - ein zu enges Band kostet messbar Qualität. | `test_ratio_experiment_headline_claims` |
 | Wie nah kommt MMAS ans echte Optimum? | Auf der kleinen Vergleichsinstanz (8 Stopps) trifft MMAS im Standardfall exakt das Brute-Force-Optimum (255,4 km, 0,0 % Abstand). | `test_kleine_instanz_preset_claims` |
 | Wie stark hängt der Abstand zum Optimum von der Ameisenzahl ab? | Wie bei Ant System: bei sehr wenigen Ameisen (4) bleibt ein Abstand zum Optimum, ab etwa 10 Ameisen wird die kleine Vergleichsinstanz praktisch immer exakt gelöst. | `test_ants_sweep_headline_claims` |
 
@@ -102,3 +102,7 @@ streamlit run app.py
 ```
 
 Gebaut mit Streamlit, Plotly und numpy.
+
+---
+
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Populations-Metaheuristiken: GA bis Memetic](https://sebastianhanisch.net/konzepte-populations-metaheuristiken.html).

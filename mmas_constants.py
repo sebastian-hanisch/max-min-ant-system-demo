@@ -55,13 +55,13 @@ def _preset(n=DEFAULT_N, ants=DEFAULT_ANTS, gens=DEFAULT_GEN, alpha=DEFAULT_ALPH
 
 PRESETS = {
     "Standardfall": _preset(),
-    "Enges τ-Verhältnis": _preset(ratio=RATIO_VALUES[0]),
-    "Lockeres τ-Verhältnis": _preset(ratio=RATIO_VALUES[-1]),
+    "Enges τ-Verhältnis": _preset(ratio=RATIO_VALUES[-1]),
+    "Lockeres τ-Verhältnis": _preset(ratio=RATIO_VALUES[0]),
     "Kleine Instanz (Vergleich mit Brute-Force)": _preset(n=COMPARISON_N, seed=COMPARISON_VEHICLE_SEED, ants=COMPARISON_ANTS, gens=COMPARISON_GENS),
 }
 PRESET_HELP = {
     "Standardfall": "30 Stopps, 20 Ameisen, 80 Generationen, τ-Verhältnis r=0.05 - findet 491.1 km.",
-    "Enges τ-Verhältnis": "r=0.005 (τ_min sehr nahe τ_max) - auf diesem Vehikel identisch zum Standardfall (491.1 km); der Effekt zeigt sich erst im eigenen Regler-Experiment über 20 Läufe.",
-    "Lockeres τ-Verhältnis": "r=0.4 (τ_min weit unter τ_max, näher am unbeschränkten Ant-System-Verhalten) - 520.5 km, spürbar schlechter als der Standardfall.",
+    "Enges τ-Verhältnis": "r=0.4 (τ_min nahe τ_max, schmales Band) - 520.5 km, spürbar schlechter als der Standardfall.",
+    "Lockeres τ-Verhältnis": "r=0.005 (τ_min weit unter τ_max, näher am unbeschränkten Ant-System-Verhalten) - auf diesem Vehikel identisch zum Standardfall (491.1 km); der Effekt zeigt sich erst im eigenen Regler-Experiment über 20 Läufe.",
     "Kleine Instanz (Vergleich mit Brute-Force)": "8 Stopps - MMAS trifft mit 255.4 km exakt das Brute-Force-Optimum (0.0 % Abstand).",
 }
